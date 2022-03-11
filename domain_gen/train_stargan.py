@@ -67,8 +67,8 @@ if __name__ == '__main__':
     parser.add_argument('--use_tensorboard', type=str2bool, default=False)
 
     # Directories.
-    parser.add_argument('--data_dir', type=str, default='/mnt/vinai/vinai/data/')
-    parser.add_argument('--dataset', type=str, default='OfficeHome')
+    parser.add_argument('--data_dir', type=str, default='../data/')
+    parser.add_argument('--dataset', type=str, default='PACS')
     parser.add_argument('--log_dir', type=str, default='stargan/logs')
     parser.add_argument('--model_save_dir', type=str, default='saved/stargan_model')
 
