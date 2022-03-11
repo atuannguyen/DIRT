@@ -1,6 +1,6 @@
 # Domain Invariant Representation Learning with Domain Density Transformations
 
-This repository is the official implementation for the NeurIPS 2021 paper [Domain Domain Invariant Representation Learning with Domain Density Transformationsi](https://proceedings.neurips.cc/paper/2021/hash/2a2717956118b4d223ceca17ce3865e2-Abstract.html).
+This repository is the official implementation for the NeurIPS 2021 paper [Domain Domain Invariant Representation Learning with Domain Density Transformations](https://proceedings.neurips.cc/paper/2021/hash/2a2717956118b4d223ceca17ce3865e2-Abstract.html).
 
 Please consider citing our paper as
 

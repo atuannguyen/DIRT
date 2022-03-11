@@ -76,10 +76,8 @@ def to_device(data):
 best_by_val = 0
 best_val_acc = 0.0
 best_val_loss = float('inf')
-best_by_test = 0
-best_test_loss = float('inf')
 for epoch in range(flags.epochs):
-    print('Epoch {}: Best by val {}, Best by test {}'.format(epoch,best_by_val,best_by_test))
+    print('Epoch {}: Best by val {}'.format(epoch,best_by_val))
     lossMeter = AverageMeter()
     regMeter = AverageMeter()
     correctMeter = AverageMeter()
@@ -139,9 +137,6 @@ for epoch in range(flags.epochs):
         best_val_loss = vallossMeter.float()
     if valcorrectMeter.float()>best_val_acc:
         best_val_acc = valcorrectMeter.float()
-    if testlossMeter.float()<best_test_loss:
-        best_test_loss = testlossMeter.float()
-        best_by_test = testcorrectMeter.float()
 
 
 
