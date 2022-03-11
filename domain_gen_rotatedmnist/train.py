@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
     parser.add_argument('--outpath', type=str, default='./saved/',
                         help='where to save')
-    parser.add_argument('--model', type=str, default='ours_gan')
+    parser.add_argument('--model', type=str, default='dirt')
     parser.add_argument('--dataset', type=str, default='RotatedMnist')
     parser.add_argument('--data_dir', type=str, default='../data/')
 

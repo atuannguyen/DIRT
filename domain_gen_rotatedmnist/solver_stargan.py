@@ -52,9 +52,7 @@ class Solver(object):
 
         # Directories.
         self.log_dir = config.log_dir
-        self.sample_dir = config.sample_dir
         self.model_save_dir = config.model_save_dir
-        self.result_dir = config.result_dir
 
         # Step size.
         self.log_step = config.log_step
