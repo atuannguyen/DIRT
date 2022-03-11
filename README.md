@@ -7,7 +7,7 @@ Please consider citing our paper as
 ```
 @article{nguyen2021domain,
   title={Domain invariant representation learning with domain density transformations},
-  author={Nguyen, A Tuan and Tran, Toan and Gal, Yarin and Baydin, Atilim Gunes},
+  author={Nguyen, A. Tuan and Tran, Toan and Gal, Yarin and Baydin, Atilim Gunes},
   journal={Advances in Neural Information Processing Systems},
   volume={34},
   year={2021}
@@ -40,5 +40,5 @@ CUDA_VISIBLE_DEVICES=0 python -u train.py --model=dirt --seed=0 --epochs=500 --t
 # Change the --data_dir flag to your data directory
 cd domain_gen
 CUDA_VISIBLE_DEVICES=0 python train_stargan.py --dataset PACS --data_dir ../data/ --target_domain 0 # To run the StarGAN model, we provided checkpoint for PACS
-CUDA_VISIBLE_DEVICES=0 python -u main.py --dataset PACS --data_dir ../data --model=dirt --seed=0 --target_domain=0
+CUDA_VISIBLE_DEVICES=0 python -u main.py --dataset PACS --data_dir ../data --model=dirt --base resnet18 --seed=0 --target_domain=0
 ```
