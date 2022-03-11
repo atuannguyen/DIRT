@@ -1,0 +1,16 @@
+*.jpg
+*.png
+*.pyc
+*.py~
+*.pkl
+*.pickle
+*.txt
+*.pt
+*.pth
+*.ckpt
+
+
+data/*
+
+!/data/roatedmnist_sup_inds/
+!*last-G.ckpt
