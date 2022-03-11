@@ -18,6 +18,6 @@ python3, pytorch 1.7.0 or higher
 - To run the experiment for Rotated MNIST: For example, target domain 0 and seed 0
 ```RotatedMNIST
 cd domain_gen_rotatedmnist
-CUDA_VISIBLE_DEVICES=0 python train_stargan.py --target_domain 0
+CUDA_VISIBLE_DEVICES=0 python train_stargan.py --target_domain 0 # To run the StarGAN model, although we already provide the checkpoint so you might skip this
 CUDA_VISIBLE_DEVICES=0 python -u train.py --model=dirt --seed=0 --epochs=500 --target_domain=0
 ```
